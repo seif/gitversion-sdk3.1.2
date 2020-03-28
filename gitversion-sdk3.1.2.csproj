@@ -5,4 +5,11 @@
     <RootNamespace>gitversion_sdk3._1._2</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="gitversiontask" Version="5.2.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>
